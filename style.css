@@ -1,0 +1,61 @@
+.buttons-area{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.buttons-area label{
+    margin-left: 20px;
+}
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.cont__elem{
+    width: 19%;
+    border: 1px solid green;
+    position: relative;
+}
+
+.cont_elem--true{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+}
+
+.cont_elem--false{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+}
+
+.pages{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pages__page{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.pages__page:hover{
+    cursor: pointer;
+}
+
+.currentPage{
+    color: red;
+}
